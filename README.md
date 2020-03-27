@@ -2,14 +2,18 @@
  A network packet simulation tool for Tibia 10.0
 
 # Important
- I'm not available to update or fix this tool, just to answer questions in issues.
- Feel free to report bugs and do pull requests.
- This tool is available for TESTING purposes only.
+ I'm not available to update or fix this tool, just to answer questions in issues.<br/>
+ Feel free to report bugs and do pull requests.<br/>
+ This tool is available for TESTING purposes only.<br/>
+ Last thing, the code for now is missing organization, feel free to fix this if you want.
 
 # How to compile?
 [Requirements]
  - Visual Studio 2019 (install C++)
  - Lua 5.1 libs (include & lib, you can use the vcpkg to install and download easier)
+
+[Downloads]
+ - You can find the binaries compiled inside 'binaries' folder (faster way if you don't wanna compile the project).
 
 [Compiling]
  - Open TibiaNetworkAPI.sln with Visual Studio 2019
@@ -20,7 +24,8 @@
 
 [Usage]
  - Create a file called 'main.lua' into 'C:/tnapi/' directory
- - Inject the dll compiled into Tibia.exe
+ - Move lua51.dll into Tibia folder
+ - Inject the TibiaNetworkAPI.dll compiled into Tibia.exe
  - Write some script inside main.lua
  - Press insert to reload script
  - enjoy
